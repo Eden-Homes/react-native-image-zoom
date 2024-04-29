@@ -1,5 +1,5 @@
-import type { ImageSourcePropType, LayoutRectangle } from 'react-native';
-import type { ImageProps } from 'expo-image';
+import type { LayoutRectangle } from 'react-native';
+import type { ImageProps, ImageSource } from 'expo-image';
 import type {
   GestureStateChangeEvent,
   PanGestureHandlerEventPayload,
@@ -152,7 +152,7 @@ export type ImageZoomProps = Omit<ImageProps, 'source'> & {
    * @see https://facebook.github.io/react-native/docs/image.html#source
    * @default undefined
    */
-  source?: ImageSourcePropType;
+  source?: ImageSource;
 };
 
 export type ImageZoomUseLayoutProps = Pick<ImageZoomProps, 'onLayout'>;
