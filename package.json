@@ -101,7 +101,7 @@
     "@types/react": "17.0.21"
   },
   "dependencies": {
-    "expo-image": "^1.5.1"
+    "expo-image": "~1.10.6"
   },
   "peerDependencies": {
     "react": ">=16.x.x",
